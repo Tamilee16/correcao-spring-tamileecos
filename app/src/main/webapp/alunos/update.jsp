@@ -17,18 +17,15 @@
             <input type="hidden" value="${aluno.id}" name="id"/>
             <div class="from-group">
                 <label for="nome">Nome</label>
-                <input class="from-control" type="text" name-"nome" value=""
-            </div>
-                <input class="form-control" type="text" name="nome" value="${aluno.nome}"
-                name="nome" value="$ "
+                <input class="from-control" type="text" name-"nome" value="${aluno.nome}" placeholder="Nome do Gênero" />
             </div>
             <div class="form-group">
-                <label for="idade">Idade</label>
-                <input class="form-control" type="number" name="idade" />
+                <label for="idade">idade</label>
+                <input class="form-control" type="number" value="${aluno.idade}" name="idade"/>
             </div>
-            <br />
+            <br/>
             <a class="btn btn-primary" href="/alunos/list">Voltar</a>
-            <button class="btn btn-success" type="submit">Salvar</button>
+            <button class="btn btn-success" type="submit"<Salvar</button>
         </form>
     </main>
 </body>
