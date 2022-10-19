@@ -1,7 +1,7 @@
-package marcocarvalho.repositories;
+package tamileecosta.repositories;
 
 import org.springframework.data.repository.CrudRepository;
-import marcocarvalho.models.Aluno;
+import tamileecosta.models.Aluno;
 
 public interface AlunosRepository extends CrudRepository<Aluno, Integer> {
 }

@@ -1,4 +1,5 @@
-package marcocarvalho.models;
+package tamileecosta.models;
+
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
